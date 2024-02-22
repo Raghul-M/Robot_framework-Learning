@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.11.7 on linux)" generated="2024-02-22T16:19:53.939973" rpa="false" schemaversion="5">
+<suite id="s1" name="Test1" source="/home/ragm/development/learning/Tests/test1.robot">
+<test id="s1-t1" name="Validate unsuccessfull login" line="6">
+<kw name="open the browser with mortage payment url">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-02-22T16:19:54.057204" level="INFO">Opening browser 'Chrome' to base url 'https://raghul-m.github.io/'.</msg>
+<arg>https://raghul-m.github.io/</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-02-22T16:19:54.056969" elapsed="2.400558"/>
+</kw>
+<status status="PASS" start="2024-02-22T16:19:54.056053" elapsed="2.401673"/>
+</kw>
+<status status="PASS" start="2024-02-22T16:19:54.055593" elapsed="2.402476"/>
+</test>
+<doc>to validate login form</doc>
+<status status="PASS" start="2024-02-22T16:19:53.940928" elapsed="2.517707"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test1">Test1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
